@@ -1,0 +1,13 @@
+footer {
+	background: $color-grey-dark;
+	padding: 3rem;
+
+	p {
+		color: $color-white;
+		line-height: 2rem;
+
+		span {
+			color: $color-primary;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+@import "abstracts/googlefonts";
+@import "abstracts/variables";
+
+@import "vendors/bootstrap";
+@import "vendors/fontawesome";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/buttons";
+@import "components/preloader";
+@import "components/headings";
+
+@import "layout/content-boxes";
+@import "layout/header";
+@import "layout/skillset";
+@import "layout/footer";
+@import "layout/google-map";
+
+@import "pages/home";

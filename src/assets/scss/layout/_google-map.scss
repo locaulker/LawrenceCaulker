@@ -1,0 +1,19 @@
+#google-map {
+	span {
+		font-size: 1.4rem;
+		font-weight: 300;
+		// color: $color-white;
+		margin: 0 0 1rem 1rem;
+		padding: .2rem .8rem;
+		border-radius: 4px;
+
+		i {
+			color: $color-google-map-location-icon;
+		}
+	}
+
+	#map {
+		height: 60rem;
+		width: 100%;
+	}
+}

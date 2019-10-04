@@ -1,0 +1,80 @@
+.btn-general {
+	font-family: "Raleway", sans-serif;
+	border-radius: 2.8rem;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	margin: 0 .6rem;
+	padding: 1.2rem 4.6rem;
+	transition: all .5s;
+}
+
+
+// Button Home Starts
+.btn-home:link,
+.btn-home:visited {
+	color: $color-white;
+	border: 1px solid $color-white;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+	color: $color-white;
+	background-color: $color-primary;
+	border: 1px solid $color-primary;
+}
+// Button Home Ends
+
+
+// Button Yellow Starts
+.btn-yellow {
+	color: $color-white;
+	border: 1px solid $color-primary;
+	// border-radius: 2.8rem;
+	background-color: $color-primary;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+	color: $color-white;
+	background-color: $color-grey-dark;
+	border: 1px solid $color-grey-dark;
+}
+// Button Yellow Ends
+
+
+// Button White Starts
+.btn-white {
+	color: $color-grey-dark;
+	border: 1px solid $color-white;
+	border-radius: 2.8rem;
+	background-color: $color-white;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+	color: $color-white;
+	background-color: $color-grey-dark;
+	border: 1px solid $color-grey-dark;
+}
+// Button White Ends
+
+
+// back-to-top Button Starts
+.btn-back-to-top {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	padding: .3rem 1.4rem;
+	font-size: 2.2rem;
+	display: none;
+}
+
+.btn-back-to-top:hover {
+	border: solid 1px $color-primary;
+	background: transparent;
+
+	i {
+		color: $color-primary;
+	}
+}
+// back-to-top Button Ends

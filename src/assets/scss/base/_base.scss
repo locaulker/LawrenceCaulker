@@ -1,0 +1,23 @@
+
+/* // == Not Required When Using bootstrap == //
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+*/
+
+html, body {
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%; // (10px/16px) * 100% = 62.5%
+}
+
+section {
+  background: $color-white;
+  overflow: hidden;
+}

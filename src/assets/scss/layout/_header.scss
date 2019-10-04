@@ -1,0 +1,161 @@
+header {
+  background-color: $color-grey-dark;
+  min-height: 6vh;
+  line-height: 3.2;
+  position: relative;
+  
+  //Main Nav
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+
+    // Flex Child 01
+    #logo {
+
+      h4 {
+        a {
+          font-weight: 500;
+          font-size: 1.8rem;
+          color: $color-primary;
+          letter-spacing: 1px;
+          font-family: 'Raleway', sans-serif;
+          text-decoration: none;
+          text-transform: uppercase;
+          cursor: pointer;
+
+          span {
+            font-weight: 100;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+    // Flex Child 02
+    .nav-links {
+      font-size: 1.4rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      margin-bottom: 0;
+
+      li {
+        list-style: none;
+        display: inline-block;
+        position: relative;
+
+        i {
+          color: $color-grey-light;
+          // color: $color-primary;
+        }
+      }
+
+      li a {
+        color: $color-grey-light;
+        // color: $color-grey-dark;
+        transition: all .3s ease;
+      }
+      li a:hover {
+        color: $color-primary;
+      }
+
+    }
+
+    // Flex Child 03: Mobile Nav
+    .mobile-icon { 
+      display: none;
+      cursor: pointer;
+      
+      // Select all Menu icon Lines
+      .line {
+        width: 25px;
+        height: 3px;
+        background-color: $color-primary;
+        margin-left: auto;
+        transition: all .3s ease;
+        cursor: pointer;
+      }
+      .line:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+}
+
+/* ===================================
+    Media Queries
+  ===================================== */
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  header nav .nav-links {
+    position: absolute;
+    right: 0;
+    top: 6vh;
+    height: 94vh;
+    background: $color-grey-dark url('./../../../../dist/assets/images/bg/carbon_fibre.png') repeat fixed center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 100;
+    line-height: 2;
+    letter-spacing: 5px;
+    transform: translateX(100%);
+    z-index: 10;
+    color: $color-grey-dark;
+    transition: transform 0.5s ease-in-out;
+  }
+  header nav .nav-links:not(:last-child) {
+    margin-bottom: 8rem;
+  }
+  header nav .nav-links li {
+    opacity: 0;
+  }
+  header nav .mobile-icon {
+    display: block;
+    margin-right: 2rem;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+/* ===================================
+    Mobile Menu Animation
+===================================== */
+header nav .nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translate(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+/* Animating The Menu Icon from "3 Lines" to "X" */
+.m-icon .line1 {
+  // transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(45deg) translate(5px, 6px);
+}
+.m-icon .line2 {
+  opacity: 0;
+}
+.m-icon .line3 {
+  // transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(-45deg) translate(5px, -6px);
+}

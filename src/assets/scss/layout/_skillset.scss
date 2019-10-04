@@ -1,0 +1,17 @@
+#skillset {
+
+  h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4rem;
+
+    span {
+      text-transform: lowercase;
+      font-size: 1.3rem;
+    }
+  }
+
+  i {
+    color: rgba($color-grey-dark, .5);
+  }
+}
