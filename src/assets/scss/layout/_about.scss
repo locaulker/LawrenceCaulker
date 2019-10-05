@@ -1,0 +1,93 @@
+#about {
+
+  #about-me {
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+
+    img {
+      width: 20rem;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 3rem;
+    }
+  }
+  
+  #qualifications {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-top: .3rem solid $color-grey-dark;
+    padding: 2rem 1rem;
+    background-color: $color-grey-light;
+
+    .education h3 {
+      text-transform: uppercase;
+    }
+    
+    .grad-date h3 {
+      font-weight: 500;
+    }
+
+  }
+
+  #certification {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    background-color: $color-grey-light;
+    padding: 1rem;
+
+    .pe-cert h3 {
+      text-transform: uppercase;
+    }
+
+    .cert-date h3 {
+      font-weight: 500;
+    }
+  }
+
+  #cont-education {
+    margin-bottom: 3rem;
+    background-color: $color-grey-light;
+    padding: 1rem;
+
+    h3 small {
+      font-weight: 500;
+      text-transform: capitalize;
+      font-style: italic;
+    }
+  }
+
+  #address-status {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    padding: 0 4rem;
+
+    i {
+      color: $color-grey-dark;
+      font-size: 1.8rem;
+    }
+
+    span {
+      font-weight: 500;
+    }
+  }
+
+  #objective {
+    background-color: $color-grey-light;
+    padding: 2rem 1rem .5rem 1rem;
+    border-bottom: .3rem solid $color-grey-dark;
+
+    h3 {
+      padding-bottom: .5rem;
+      text-transform: uppercase;
+    }
+
+    ol li {
+      padding: 0 0 .5rem .5rem;
+    }
+  }
+
+}
