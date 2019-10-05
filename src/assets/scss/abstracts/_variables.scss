@@ -3,7 +3,9 @@
 
 
 // Edit These Code - Don't Use in code
-$moon-yellow:       #fccb08;
+// $moon-yellow:       #fccb08;
+$bird-flower:       #D6CE15;
+$tangara:           #17252A;
 
 $black-russian:     #212226;
 $cinnabar:          #EA4335;
@@ -15,8 +17,11 @@ $color-google-plus: #DD4B39;
 $color-nobel:       #999999;
 
 
-// Use these in code
-$color-primary: $moon-yellow;
+// Use these in code (h1 - h6)
+$color-grey-blue: $tangara;
+
+// Others
+$color-primary: $bird-flower;
 $color-grey-dark: $black-russian;
 $color-grey-medium: $color-nobel;
 $color-grey-light: $white-smoke;

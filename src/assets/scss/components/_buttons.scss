@@ -8,6 +8,17 @@
 	transition: all .5s;
 }
 
+.btn-custom {
+	background-color: $color-primary;
+	padding: 2rem 3rem;
+	font-size: 2rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	border-radius: 10px;
+	width: 22rem;
+	color: #fff;
+}
+
 
 // Button Home Starts
 .btn-home:link,
