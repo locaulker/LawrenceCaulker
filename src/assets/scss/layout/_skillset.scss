@@ -1,18 +1,68 @@
 #skillset {
+  background-color: $color-grey-light;
 
-  h2 {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.4rem;
+  .skill-group {
 
-    span {
-      text-transform: lowercase;
-      font-size: 1.3rem;
+    background-color: $color-white;
+    padding: 4rem 1.1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+
+    i {
+      font-size: 4.2rem;
+      margin: 0;
+      transition: all 400ms linear;
     }
-  }
 
-  i {
-    color: rgba($color-grey-dark, .5);
+    i:hover {
+      color: $color-primary;
+      transform: translateY(-20px);
+    }
+
+    h3 {
+      margin: 2rem 0;
+      // letter-spacing: 2px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0 1.5rem;
+
+      li {
+        padding: 1rem 0 0 0;
+        font-size: 1.6rem;
+        // line-height: 2.4rem;
+        cursor: pointer;
+
+        i {
+          font-size: 3rem;
+          margin: 0;
+          padding: 0;
+        }
+      }
+
+      li:before {
+        content: "\f192";
+        font-family: 'Font Awesome 5 Pro';
+        font-size: 1rem;
+        margin-right: .2rem;
+        color: $color-grey-medium;
+        transition: all 400ms linear;
+      }
+
+      li:hover::before {
+        color: $color-primary;
+      }
+
+
+      li:not(:last-child) {
+        border-bottom: 1px solid rgba($color-grey-medium, .2);
+      }
+    }
+
+    .btn-custom-md {
+      margin-top: 2rem;
+    }
   }
 
 }

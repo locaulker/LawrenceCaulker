@@ -2,26 +2,39 @@
 // $fa-font-path: "/dist/assets/webfonts" !default;
 
 
-// Edit These Code - Don't Use in code
-// $moon-yellow:       #fccb08;
-$bird-flower:       #D6CE15;
-$tangara:           #17252A;
+// == Edit These Code - Don't Use in code == //
 
+// Use for Primary Colors
+$bird-flower:       #D6CE15;
+$golden-tainoi:     #FEBD54;
+$sweet-corn:        #FBE982;
+$azureish:          #DEF2F1;
+$atoll:             #2B7A78;
+$golden-fizz:       #E5DE1B;
+
+
+// Use For Headings
+$tangara:           #17252A;
 $black-russian:     #212226;
-$cinnabar:          #EA4335;
-$white-smoke:       #F4F4F4;
+
+// Use for body sections
+$color-nobel:       #999999;
+$white-smoke:       #F6F6F6;
 $white-smoke-2:     #EFEFEF;
+
+// Brand Colors
+$cinnabar:          #EA4335;
 $color-facebook:    #3B5998;
 $color-twitter:     #00ACED;
 $color-google-plus: #DD4B39;
-$color-nobel:       #999999;
 
+// +++++++++++++++++++++++++++++++ //
 
 // Use these in code (h1 - h6)
 $color-grey-blue: $tangara;
 
 // Others
-$color-primary: $bird-flower;
+$color-primary: $golden-tainoi;
 $color-grey-dark: $black-russian;
 $color-grey-medium: $color-nobel;
 $color-grey-light: $white-smoke;
@@ -29,7 +42,7 @@ $color-grey-light-2: $white-smoke-2;
 $color-google-map-location-icon:  $cinnabar;
 
 
-$color-white:		    #fff;
+$color-white:		    #FFF;
 $color-black:	  	  #000;
 $color-facebook:	  #3C5A99;
 $color-twitter:	  	#00acee;
