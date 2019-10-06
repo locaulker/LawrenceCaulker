@@ -1,0 +1,46 @@
+#progress-bar-elements {
+	
+	.skill {
+		margin-bottom: 2rem;
+
+		h4 {
+			line-height: 6.2rem;
+			font-weight: normal;
+		}
+
+		.progress {
+			height: 2.5rem;
+			border-radius: 0;
+			background-color: $color-grey-light-2;
+			overflow: visible;
+		}
+
+		.progress-bar {
+			background-color: $color-primary;
+			position: relative;
+
+			span {
+				font-size: 1.1rem;
+				font-weight: 100;
+				font-family: "Open Sans", sans-serif;
+				display: inline-block;
+				margin: 0 auto;
+				background: $color-grey-dark;
+				padding: 3px;
+				position: absolute;
+				left: 97%;
+				top: -4.7rem;
+			}
+
+      :before {
+        content: "";
+        border-top: .8rem solid $color-grey-dark;
+        border-left: .6rem solid transparent;
+        border-right: .6rem solid transparent;
+        position: absolute;
+        bottom: -.8rem;
+        left: 23%;
+      }
+		}
+	}  
+}

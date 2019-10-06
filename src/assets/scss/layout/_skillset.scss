@@ -2,10 +2,12 @@
   background-color: $color-grey-light;
 
   .skill-group {
-
     background-color: $color-white;
     padding: 4rem 1.1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    border: none;
+    
 
     i {
       font-size: 4.2rem;
@@ -13,14 +15,17 @@
       transition: all 400ms linear;
     }
 
-    i:hover {
-      color: $color-primary;
-      transform: translateY(-20px);
-    }
-
     h3 {
       margin: 2rem 0;
-      // letter-spacing: 2px;
+      transition: all 400ms linear;
+    }
+
+    hr.top {
+      width: 4.5rem;
+      height: 3px;
+      background-color: $color-primary;
+      margin: 1rem auto;
+      border: none;
     }
 
     ul {
@@ -31,8 +36,8 @@
       li {
         padding: 1rem 0 0 0;
         font-size: 1.6rem;
-        // line-height: 2.4rem;
-        cursor: pointer;
+        margin-bottom: .5rem;
+        // border-bottom: 1px solid rgba($color-grey-medium, .2);
 
         i {
           font-size: 3rem;
@@ -46,23 +51,53 @@
         font-family: 'Font Awesome 5 Pro';
         font-size: 1rem;
         margin-right: .2rem;
-        color: $color-grey-medium;
+        color: $color-grey-dark;
         transition: all 400ms linear;
       }
 
       li:hover::before {
         color: $color-primary;
+        // color: $color-white;
       }
 
+    }
 
-      li:not(:last-child) {
-        border-bottom: 1px solid rgba($color-grey-medium, .2);
-      }
+    li:not(:last-child) {
+      border-bottom: 1px solid rgba($color-grey-medium, .2);
     }
 
     .btn-custom-md {
-      margin-top: 2rem;
+      margin-top: 2.5rem;
+      transition: all 400ms linear;
     }
+  }
+
+  .skill-group:hover {
+    border: 1px solid $color-primary;
+    // overflow: hidden;
+
+    li:hover::before {
+      color: $color-primary;
+    }
+    // hr {
+    //   height: 1px;
+    // }
+    
+  }
+
+  i:hover {
+    color: $color-primary;
+    transform: translateY(-10px);
+  }
+
+  h3:hover {
+    color: $color-primary;
+    transform: translateY(5px);
+  }
+
+  .btn-custom-md:hover {
+    background-color: rgba($color-grey-dark, .9);
+    color: $color-white;
   }
 
 }
