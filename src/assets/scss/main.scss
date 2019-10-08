@@ -3,6 +3,7 @@
 
 @import "vendors/bootstrap";
 @import "vendors/fontawesome";
+@import "vendors/magnific-popup";
 
 @import "base/base";
 @import "base/typography";
@@ -16,8 +17,11 @@
 @import "layout/content-boxes";
 @import "layout/header";
 @import "layout/about";
+@import "layout/coding";
+@import "layout/portfolio";
 @import "layout/skillset";
 @import "layout/footer";
 @import "layout/google-map";
+@import "layout/contact";
 
 @import "pages/home";

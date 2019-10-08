@@ -1,5 +1,5 @@
 {
-  "name": "locaulkercv",
+  "name": "lawrencecaulker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "bundle": "gulp bundle --prod"
   },
   "keywords": [],
-  "author": "locaulker",
+  "author": "Lawrence O. Caulker",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "4.3.1",

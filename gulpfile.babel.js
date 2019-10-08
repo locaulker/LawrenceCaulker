@@ -31,7 +31,7 @@ import zip from 'gulp-zip';
 
 //Server: a BrowserSync mini server
 const server = browserSync.create();
-const siteName  = 'LawrenceCaulker';
+const siteName  = 'lawrencecaulker';
 const userName  = 'ceativeDev';
 
 // yargs: Sets Development or Production Mode

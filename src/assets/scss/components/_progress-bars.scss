@@ -1,15 +1,22 @@
 #progress-bar-elements {
+
+  margin-top: 8rem;
+  
+  .container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    padding: 8rem;
+  }
 	
 	.skill {
 		margin-bottom: 2rem;
 
 		h4 {
-			line-height: 6.2rem;
+			line-height: 4.2rem;
 			font-weight: normal;
 		}
 
 		.progress {
-			height: 2.5rem;
+			height: 2rem;
 			border-radius: 0;
 			background-color: $color-grey-light-2;
 			overflow: visible;

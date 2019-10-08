@@ -1,12 +1,16 @@
 #skillset {
-  background-color: $color-grey-light;
+
+  #skillset-wrapper {
+    background-color: $color-grey-light;
+    padding-top: 6rem;
+  }
 
   .skill-group {
     background-color: $color-white;
     padding: 4rem 1.1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    border: none;
+    border: 1px solid transparent;
     
 
     i {
@@ -79,10 +83,11 @@
     li:hover::before {
       color: $color-primary;
     }
-    // hr {
-    //   height: 1px;
-    // }
     
+  }
+
+  .w-100 {
+    margin: 3rem 0;
   }
 
   i:hover {
@@ -98,6 +103,14 @@
   .btn-custom-md:hover {
     background-color: rgba($color-grey-dark, .9);
     color: $color-white;
+  }
+
+  #progress-bars-wrapper {
+
+      background-color: $color-white;
+      padding: 2rem 3rem;
+    
+    
   }
 
 }

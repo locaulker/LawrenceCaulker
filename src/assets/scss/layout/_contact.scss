@@ -1,0 +1,105 @@
+#contact {
+
+  .content-box-lg {
+    
+    #contact-info {
+      p {
+        margin: 2.5rem 0 2rem 0;
+      }
+
+      .contact-address {
+        
+        h4 {
+          padding: 0;
+          margin-bottom: 1rem;
+          font-size: 1.6rem;
+          text-transform: uppercase;
+
+          i {
+            width: 2.5rem;
+            font-size: 2.5rem;
+          }
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+
+           li {
+            margin-bottom: .5rem;
+            font-size: 1.5rem;
+            display: flex;
+            align-self: auto;
+
+            i {
+              font-size: 2rem;
+              width: 4rem;
+            }
+          }
+        }
+        
+        ul.location-address {
+          padding-left: 2rem;
+        }
+
+        ul.social-list {
+          display: flex;
+          justify-content: center;
+          span {
+            font-size: 1.8rem;
+            margin-right: 1.5rem;
+          }
+
+          li {
+            display: inline-block;
+
+            i {
+              font-size: 2.5rem;
+            }
+          }
+          li a {
+            color: $color-grey-dark;
+          }
+
+          li a .fa-facebook:hover { color: $color-facebook; }
+          li a .fa-twitter:hover { color: $color-twitter; }
+          li a .fa-google-plus:hover { color: $color-google-plus; }
+          li a .fa-linkedin-in:hover { color: $color-linkedIn; }
+          li a .fa-pinterest:hover { color: $color-pinterest; }
+          li a .fa-youtube:hover { color: $color-youtube; }
+        }
+      }
+    }
+
+
+    #contact-form {
+      // background: $color-grey-light-2;
+      padding: 2.5rem 1rem;
+      box-shadow: 0 0 12px 0 rgba($color-black, .1);
+      border-radius: 6px;
+
+      h4 {
+        font-size: 2.4rem;
+      }
+
+      p {
+        margin-bottom: 2.5rem;
+      }
+
+      input.form-control {
+        font-family: "Open Sans", sans-serif;
+        padding: 1.8rem 1.5rem;
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+      }
+
+      textarea.form-control {
+        font-family: "Open Sans", sans-serif;
+        min-height: 16.4rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+  }
+
+
+}
