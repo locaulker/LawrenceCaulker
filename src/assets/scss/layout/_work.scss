@@ -1,0 +1,14 @@
+#work {
+
+  .card-body .job-header-desc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    h2 span {
+      font-weight: 500;
+      font-style: italic;
+      font-size: 80%;
+    }
+  }
+}

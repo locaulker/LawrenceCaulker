@@ -1,0 +1,74 @@
+
+[
+  { 
+    "acronym" : "LAMP",
+    "desc" : "Linux, Apache, MySQL, and PHP",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "MEAN",
+    "desc" : "MongoDB, ExpressJS, AngularJS, and NodeJS ",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "CRUD",
+    "desc" : "Create, Read, Update, and Delete",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "RESTFul",
+    "desc" : "REpresentational Sate Transfer (API / Web Services): JSON",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "SOAP",
+    "desc" : "Simple Object Access Protocol – An XML message format",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "MVC",
+    "desc" : "Model View Controller – A popular way to organize code",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "MVVM",
+    "desc" : "Model View ViewModel: Connects View & Model in 2-Way data bindings",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "MAMP",
+    "desc" : "Macintosh, Apache, MySQL, and PHP: (Local Web Development Environment for Mac Computers)",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "XAMPP",
+    "desc" : "Cross-Platform(X), Apache, MariaDB, PHP, & Perl: 1. Local lightweight Apache Web Development Environment. 2. Used for Windows, Mac OS and Linux Computers",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "WAMP",
+    "desc" : "Windows, Apache, MySQL, and PHP: Local Web Development Environment for Windows Computers",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "CSRF",
+    "desc" : "Cross-Site Request Forgery: Attack against web authenticated web applications using cookies",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "CORS",
+    "desc" : "Cross-Origin Resource Sharing: Use of additional HTTP Headers to grant permission across different origins/domains to prevent malicious attacks",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "XSS",
+    "desc" : "Cross(X)-Site Scripting: A Malicious Client-Side Code Injection Attack in a legitimate web page or web application",
+    "aware" : "Yes"
+  },
+  { 
+    "acronym" : "OOP",
+    "desc" : "Object Oriented Programming",
+    "aware" : "Yes"
+  }
+] 
+
