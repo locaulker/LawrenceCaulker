@@ -1,0 +1,33 @@
+#footer-top {
+  background-color: rgba($color-grey-dark, .9);
+  color: $color-grey-light-2;
+  
+
+  h2 {
+    color: $color-grey-light-2;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+
+  p {
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+  }
+
+  span {
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-bottom: .5rem;
+    background-color: transparent;
+    border: 1px dashed $color-grey-light;
+  }
+
+  span:hover {
+    color: $color-primary;
+    cursor: pointer;
+  }
+}
