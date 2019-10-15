@@ -13,6 +13,7 @@ import Frameworks from './modules/DesignAndDev/Frameworks';
 import DatabaseTools from './modules/DesignAndDev/DatabaseTools';
 import Resources from './modules/DesignAndDev/Resources';
 import Acronyms from './modules/DesignAndDev/Acronyms';
+import WorkExperience from './modules/WorkExperience';
 
 
 const preLoader = new PreLoader();
@@ -25,6 +26,7 @@ const frameworks = new Frameworks();
 const databaseTools = new DatabaseTools();
 const resources = new Resources();
 const acronyms = new Acronyms();
+const workExperience = new WorkExperience();
 
 
 import MobileNav from './modules/MobileNav';

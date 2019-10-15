@@ -1,27 +1,136 @@
 #work {
 
-  // .accordion-header {
-  //   display: flex;
-   
-    
-  // }
+  h4.panel-title {
+    background-color: $color-grey-light-2;
+    padding: 1rem;
 
-  .fal:before {  
-    content: "\f107";
-    font-family: "Font Awesome 5 Pro";
-    color: #000;
-    // position: absolute;
+    a {
+      font-size: 2.2rem;
+      font-weight: 500;
+      transition: all .3s ease;
+    }
+    a:hover {
+      color: $atoll;
+    }
+
+    span {
+      font-size: 1.3rem;
+      // font-style: italic;
+      vertical-align: middle;
+    }
+    
   }
 
-  .card-body .job-header-desc {
+  .job-header-desc {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
+    padding-bottom: 1.8rem;
+    align-items: center;
+    
+    h2 {
+      font-weight: bold;
+      // font-style: italic;
+    }
 
-    h2 span {
-      font-weight: 500;
-      font-style: italic;
-      font-size: 80%;
+    h3.company {
+      font-size: 100;
+    }
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f14a";
+    font-size: .5rem;
+    padding-right: 1.5rem;
+    // margin-left: .5rem;
+    color: $color-grey-dark;
+  }
+
+  .panel-heading {
+    padding: 0;
+    border: 0;
+    
+  }
+  .panel-title > a,
+  .panel-title > a:active {
+    display: block;
+    padding: 15px;
+    color: #555;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-decoration: none;
+  }
+  .panel-heading a:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f104";
+    float: right;
+    transition: all 0.5s;
+    font-size: 3.5rem;
+    margin-top: -0.35rem;
+  }
+  .panel-heading.active a:before {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+  
+  .snj {
+    &-panel {
+      .panel {
+        margin: 0;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+        &-heading {
+          border: none;
+          border-radius: 0;
+        }
+        +.panel {
+          margin: 0;
+          border-radius: 0;
+          border: none;
+          box-shadow: none;
+        }
+        &-title {
+          a {
+            display: block;
+            text-decoration: none;
+            text-transform: Capitalized;
+          }
+        }
+        &-body {
+          line-height: rem(22px);
+          margin: 1rem 1rem 2rem;
+
+          .container {
+            padding: 0;
+          }
+
+          h4 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+          }
+
+          li {
+            margin-bottom: .5rem;
+            padding: 1rem 0 1rem 1rem;
+          }
+
+          li:nth-child(odd) {
+            background-color: $color-grey-light-2;
+          }
+        }
+      }
     }
   }
 }

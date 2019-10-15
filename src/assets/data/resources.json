@@ -317,7 +317,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<i class='fad fa-users-class'></i>",
+    "icon" : "<img src='dist/assets/images/coding/asana.svg'>",
     "desc" : "Asana: A tool for teams to plan, organize, manage & track work",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
