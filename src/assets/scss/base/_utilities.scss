@@ -2,3 +2,18 @@
   clear: both;
   margin-top: 10rem;
 }
+
+.divider-left-sm {
+  width: 4.5rem;
+  height: .25rem;
+  background-color: $color-primary;
+  margin: 1.2rem 0 2.6rem 0;
+  border: none;
+}
+.divider-center-sm {
+  width: 4.5rem;
+  height: .25rem;
+  background-color: $color-primary;
+  margin: 1.5rem auto;
+  border: none;
+}
