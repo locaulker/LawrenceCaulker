@@ -1,0 +1,37 @@
+Title:�Senior Front-end Developer
+Location:�Cranbury, NJ
+Specialties:�Front end development, HTML5, CSS, JavaScript,
+Salary:�Market Rate DOE
+
+What You Will Be Doing
+5+ years of front-end coding.
+
+- Strong experience in responsive and fluid development
+- Translate the designs of the UI/UX Team into HTML and CSS/SASS
+- Being able to create sites base on mockups on Adobe XD
+- Create functional prototypes using HTML and CSS for usability testing
+- Git Version Control
+- Understanding of Gulp
+- Experience with PHP, MySQL, AJAX
+- Understanding of Open Source CMS
+- Able to create templates with clean understandable code
+- Browser Testing abilities using developer tools
+- Mastery of front-end web technologies including HTML5, CSS3, and JavaScript
+- Strong working knowledge of with CSS pre-processors (SASS preferred)
+- Advanced skills with JavaScript frameworks, including JQuery
+- Experience conducting cross-browser testing to ensure performance and functionality
+- Familiarity with Sketch, InVision and Adobe XD
+
+What You Need for this Position
+- More Than 5 Years of experience and knowledge of:
+- SASS
+- HTML
+- HTML5
+- JavaScript
+- CSS
+- UI
+- UX
+- PHP
+- MySQL
+- AJAX
+
