@@ -1,13 +1,11 @@
-/** package.json file **
-============================================= **/
+/** package.json file **/
 1.  Edit/Change the 'name' to match the project
 2.  If necessary, Change the Version Number
 3.  Add the Description of the project
 4.  Add keywords in the [] to match the project
 
 
-/** gulpfile.babel.js **
-============================================= **/
+/** gulpfile.babel.js **/
 SETUP / INSTALL:
 --src:
   --assets
@@ -51,7 +49,3 @@ Change this in the 'watch' task:
     
   > In Styles Task, "sass"
     -- change 'outputStyle' to 'compressed' if necessary
-
-/** NOTE on running BrowserSync
-============================================= **/
-If localhost:3000 does NOT run a secure connection in the "valet secure environment" with proxy: https://some-site.test. To continue, you must run it under unsafe connection. This is OK since it is only needed for local environment.
