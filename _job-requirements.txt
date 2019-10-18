@@ -1,5 +1,5 @@
 Title:�Senior Front-end Developer
-Location:�Cranbury, NJ
+Location: Cranbury, NJ
 Specialties:�Front end development, HTML5, CSS, JavaScript,
 Salary:�Market Rate DOE
 
@@ -34,4 +34,3 @@ What You Need for this Position
 - PHP
 - MySQL
 - AJAX
-
