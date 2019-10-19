@@ -61,10 +61,23 @@
 
   ol:before {
     font-family: "Font Awesome 5 Pro";
-    content: "\f14a";
+    content: "\f068";
     font-size: .5rem;
     padding-right: 1.5rem;
     margin-left: -2.5rem;
+    color: $color-grey-dark;
+  }
+
+  ol p {
+    margin-top: 1rem;
+  }
+
+  p.bullet_01:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f105";
+    font-size: .5rem;
+    padding-right: 1.5rem;
+    margin-left: 0.5rem;
     color: $color-grey-dark;
   }
 
@@ -94,6 +107,19 @@
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     transform: rotate(-90deg);
+  }
+
+  #sub-section-freelance {
+    border: 1px dashed rgba($atoll, .4);
+    padding: 1.5rem;
+  }
+  #sub-section-comop {
+    border: 1px dashed rgba($color-grey-dark, .4);
+    padding: 1.5rem;
+  }
+
+  p.sub-title {
+    margin: 2.5rem 0 .5rem 0;
   }
   
   .snj {
@@ -132,7 +158,13 @@
             font-size: 1.8rem;
             font-weight: 500;
             margin-bottom: 1.5rem;
-            font-style: italic;
+            // font-style: italic;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+          h5 {
+            font-size: 1.6rem;
+            margin: 1.5rem 0 1.5rem 0rem;
           }
 
           li {
@@ -143,6 +175,17 @@
           li:nth-child(odd) {
             background-color: $color-grey-light-2;
           }
+
+          ol {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+          }
+
+          ol:nth-child(odd) {
+            background-color: $color-grey-light-2;
+          }
+
+
         }
       }
     }
