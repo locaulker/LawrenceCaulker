@@ -1,14 +1,14 @@
 import $ from 'jquery';
 import 'magnific-popup';
 
-class MagnificPopup {
+class TinySliderPopup {
   constructor() {
-    this.magPopup();
+    this.footerSlider();
   }
 
-  magPopup() {
+  footerSlider() {
     $( () => {
-      $("#portfolio-wrapper").magnificPopup({
+      $("#instagram-slider").magnificPopup({
         delegate: 'a',
         type: 'image',
         gallery: {
@@ -18,7 +18,6 @@ class MagnificPopup {
       });
     });
   }
-
 }
 
-export default MagnificPopup;
+export default TinySliderPopup;

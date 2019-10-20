@@ -1,0 +1,26 @@
+// Carousel Slider Controls
+#customize-controls {
+  margin: 2rem 0 0 -4rem;
+  display: flex;
+  justify-content: center;
+  outline: none;
+
+  .prev, .next {
+    list-style: none;
+    color: $color-grey-light;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .prev:hover,
+  .next:hover {
+    color: $color-grey-light;
+  }
+
+  .prev {
+    margin-right: .1rem;
+  }
+  .next {
+    margin-left: .1rem;
+  }
+}

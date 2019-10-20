@@ -9,7 +9,7 @@ background-color: rgba($color-grey-dark, .95);
     font-size: 2.3rem;
     font-weight: 200;
     letter-spacing: 2px;
-    margin-bottom: 3.5rem;
+    // margin-bottom: 3.5rem;
   }
 
   p i {
@@ -21,7 +21,7 @@ background-color: rgba($color-grey-dark, .95);
     line-height: 1.4;
     letter-spacing: 1px;
     font-family: "Helvetica Neue", sans-serif;
-    font-weight: 200;
+    font-weight: 100;
   }
 
   span {
@@ -45,18 +45,45 @@ background-color: rgba($color-grey-dark, .95);
 
     li {
       margin-bottom: .3rem;
+      margin-left: -1rem;
       letter-spacing: .1rem;
       font-size: 2rem;
     }
   }
 
-  p.social-media i {
-    margin: 2rem 0 0 0;
-    padding: 0;
+  #top-footer-right {
+
+    .img-fluid {
+      margin-bottom: 1rem;
+      padding-right: 1rem;
+    }
+
+    p.social-media i {
+      text-align: center;
+      margin: 0 auto 2.5rem auto;
+      padding: 0;
+      transition: all .3s ease;
+      cursor: pointer;
+    }
+
+    i.fa-facebook-square:hover {color: $color-facebook;}
+    i.fa-youtube-square:hover {color: $color-youtube;}
+    i.fa-twitter-square:hover {color: $color-twitter;}
+    i.fa-pinterest-square:hover {color: $color-pinterest;}
+
+    h3 {
+      color: $color-grey-light;
+      font-weight: 300;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+
+    em {
+      text-transform: lowercase;
+      color: $color-instagram;
+    }
   }
 
-  .img-fluid {
-    margin-bottom: 1rem;
-    padding-right: 1rem;
-  }
+  
 }
