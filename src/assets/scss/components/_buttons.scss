@@ -28,6 +28,22 @@
 	border-right: 3px solid $atoll;
 }
 
+.btn-modal-md {
+	background-color: $color-primary-dark;
+	padding: 1rem 1.4rem .5rem;
+	font-size: 1.6rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: $color-white;
+}
+.btn-modal-md:hover {
+	background-color: transparent;
+	color: $color-white;
+	border: 1px solid $color-white;
+}
+
+
+
 // Button Home Starts
 .btn-home:link,
 .btn-home:visited {
