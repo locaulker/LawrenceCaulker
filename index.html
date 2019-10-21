@@ -22,7 +22,7 @@
     <nav class="container">
       <div id="logo" class="brand">
         <h4>
-          <a href="#home"><i class="fad fa-ball-pile"></i>
+          <a href="#home" class="smooth-scroll"><i class="fad fa-ball-pile"></i>
           Lawrence<span>Caulker</span></a>
         </h4>
       </div>
@@ -47,13 +47,13 @@
   <!-- Start: Hero Section -->
   <section id="home" class="hero clearfix">
     <div class="content-box-sm">
-      <!-- <div class="container-fluid">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <img src="dist/assets/images/hero/hero-bg_02.jpg" alt="hero" class="img-fluid">
+            <img src="dist/assets/images/hero/hero-bg_01.jpg" alt="hero" class="img-fluid">
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </section>
   <!-- End: Hero Section -->
@@ -501,38 +501,6 @@
 
         <!-- start accordion -->
         <div class="panel-group snj-panel" id="accordion" role="tablist" aria-multiselectable="true">
-
-          
-          <!-- <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingOne">
-              <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#freelancing" aria-expanded="true" aria-controls="collapseOne">
-                  <i class="fad fa-laptop-code"></i> FreeLancing<span>&nbsp;&mdash;&nbsp;[Coding]: (07/2015 to Now)</span>
-                </a>
-              </h4>
-            </div>
-            <div id="freelancing" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-              <div class="panel-body">
-                <div class="job-header-desc">
-                  <h2 class="title">Senior XXX:</h2>
-                  <h3 class="company">FreeLancing, Lumberton, NJ</h3>
-                  <h3 class="period">07/2015 – Now</h3>
-                </div>
-                <h4>As a <strong>Senior XXX</strong>, I:</h4>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <ul>
-                        FreeLancing
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- .panel-FreeLancing -->
-
 
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
@@ -1182,79 +1150,76 @@
   </section>
   <!-- End: Portfolio Section -->
 
+
   <!-- Start: Contact Section -->
-  <section id="contact">
-    <div class="content-box-lg">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="horizontal-heading">
-              <h5>Contact Me Via eMail</h5>
-              <h2><strong>Contact</strong> Form</h2>
-            </div>
-          </div>
-        </div>
-
-        <div id="contact-form">
-          <div class="col-md-10 offset-md-1">
-            <form>
-              <h4>Send Us A Message</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur elit. Neque, aliquid!</p>
-
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="eMail Address">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                  </div>
-                </div>
-              </div>
-              <!-- end row -->
-              <div class="form-group">
-                <textarea name="text" class="form-control" id="subject" placeholder="Message"></textarea>
-              </div>
-              <div id="submit-btn">
-                <a class="btn btn-custom-md" href="#" title="Submit" role="button">Get In Touch</a>
-              </div>
-            </form>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- End: Contact Section -->
-
-  <!-- Google Map Starts -->
-  <section id="google-map">
+  <section id="contact-google">
     <div class="container-fluid">
       <div class="row">
-        <span>
-          <i class="fad fa-map-marked"></i>&nbsp;
-          Checkout My <strong>Physical Location</strong> on Google Map
-        </span>
-        <div id="map"></div>
+        
+        <div class="col-md-6">
+          <div id="google-map">
+              <div class="container-fluid">
+                <div class="row">
+                  <div id="map"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <section id="contact">
+              <div class="container">
+        
+                <div id="contact-form">
+                  <!-- <div class="col-md-10 offset-md-1"> -->
+                    <form>
+                      <h4>Send A Message</h4>
+                      <p>You may contact me by completing and submitting this PHP Powered form</p>
+        
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="eMail Address">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end row -->
+                      <div class="form-group">
+                        <textarea name="text" class="form-control" id="subject" placeholder="Message"></textarea>
+                      </div>
+                      <div id="submit-btn">
+                        <a class="btn btn-custom-md" href="#" title="Submit" role="button">Get In Touch</a>
+                      </div>
+                    </form>
+                  <!-- </div> -->
+                </div>
+
+              
+            <!-- </div> -->
+          </section>
+        </div>
+
       </div>
     </div>
   </section>
-  <!-- Google Map Ends -->
+<!-- End: Contact Section -->
 
-  <!-- Start Footer-top -->
+  <!-- Start: Footer-top -->
   <section id="footer-top">
       <div class="content-box-sm">
         <div class="container">
@@ -1492,9 +1457,9 @@
         </div>
       </div>
   </section>
-  <!-- End Footer-top -->
+  <!-- End: Footer-top -->
 
-  <!-- Start Footer -->
+  <!-- Start: Footer -->
   <footer class="text-center">
     <div class="container">
       <div class="row">
@@ -1510,9 +1475,9 @@
     </a>
     <!-- Button; Back-to-top ends -->
   </footer>
-  <!-- End Footer -->
+  <!-- End: Footer -->
 
-  <!-- Start Modals -->
+  <!-- Start: Modals -->
   <section id="modals">
 
     <!-- Start Modal: UI/UX Features -->
@@ -1711,13 +1676,15 @@
       <!-- End Modal: UI/UX Features -->
 
   </section>
-  <!-- End Modals -->
+  <!-- End: Modals -->
   
+  <!-- Start: Scripts Section -->
   <section id="scripts">
     <!-- Start: Google Map API -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAReRsF6dSYC0quX_sy0poHsbe7sLw7as8"></script>
     <!-- End: Google Map API -->
     <script type="module" src="dist/assets/js/App.js"></script>
   </section>
+  <!-- Start: Scripts Section -->
 </body>
 </html>
