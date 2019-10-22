@@ -19,7 +19,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Be Vietnam', sans-serif;
+  // font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   color: $color-grey-blue;
@@ -27,8 +28,14 @@ h6 {
 }
 
 body {
-  font-family: "Tajawal", sans-serif;
+  // font-family: "Tajawal", sans-serif;
   font-size: 1.7rem;
   font-weight: 400;
   line-height: 2.1rem;
+  color: $color-grey-dark;
+}
+
+p {
+  // font-family: 'Roboto', serif;
+  font-family: "Tajawal", sans-serif;
 }

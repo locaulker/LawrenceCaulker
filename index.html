@@ -18,6 +18,7 @@
   </div>
   <!-- End Preloader -->
 
+  
   <header class="container-fluid fixed-top">
     <nav class="container">
       <div id="logo" class="brand">
@@ -44,31 +45,42 @@
     </nav> 
   </header><!-- .container-fluid -->
 
-  <!-- Start: Hero Section -->
-  <section id="hero" class="hero clearfix">
-    <div class="content-box-sm">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
+  <!-- Start: Home-section -->
+  <section id="home" class="clearfix">
 
-            <video id="hero-bg-video" poster="dist/assets/images/video/home-video.jpg" autoplay loop muted>
-              <source src="dist/assets/images/video/home-video.mp4" type="video/mp4">
-              <source src="dist/assets/images/video/home-video.ogv" type="video/ogg">
-              <source src="dist/assets/images/video/home-video.webm" type="video/webm">
-            </video>
+    <video id="home-bg-video" poster="dist/assets/images/video/home.jpg" autoplay loop muted>
+      <source src="dist/assets/images/video/home.mp4" type="video/mp4">
+      <source src="dist/assets/images/video/home.ogv" type="video/ogg">
+      <source src="dist/assets/images/video/home.webm" type="video/webm">
+    </video>
+  
+    <div id="home-overlay"></div>
 
-            <!-- Start: Home-section Overlay -->
-            <div id="hero-overlay">
+    <div id="home-content">
+      <div id="home-content-inner" class="text-center">
 
-            </div>
-            <!-- End: Home-section Overlay -->
-
-          </div>
+        <div id="home-heading">
+          <h1 id="home-heading-1">Digital</h1><br>
+          <h1 id="home-heading-2">Creative <span>Agency</span></h1>
         </div>
+
+        <div id="home-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div id="home-btn">
+          <a class="btn btn-general btn-home smooth-scroll" href="#about" title="Start Now!" role="button">Start Now</a>
+        </div>
+
       </div>
     </div>
+
+    <a href="#about" id="arrow-down" class="smooth-scroll">
+        <i class="fal fa-chevron-down"></i>
+    </a>
+  
   </section>
-  <!-- End: Hero Section -->
+  <!-- End: Home-section -->
 
   <!-- Start: About Section -->
   <section id="about">
@@ -200,12 +212,10 @@
                         <h3>UI/UX Design</h3>
                         <hr class="top">
                         <ul class="text-left">
-                          <li> Responsive Design Concept</li>
-                          <li> <em>Tools</em>: Adobe XD, PS & Sketch</li>
-                          <li> Wireframes & Prototyping</li>
-                          <li> Mockups/PSDs to HTML/CSS</li>
-                          <!-- <li> Develop Style Guides</li>
-                          <li> Optimized Web Images: 1x, 2x</li> -->
+                          <li> Responsive Design</li>
+                          <li> <em>Tools</em>: XD, PS & Sketch</li>
+                          <li> Wireframes & Mockups</li>
+                          <li> PSDs to HTML/CSS</li>
                         </ul>
                         <hr>
                         <button type="button" data-toggle="modal" data-target="#ui-ux-design" class="btn btn-custom-md btn-lg">See More...</button>
@@ -217,8 +227,8 @@
                         <h3>FrontEnd <small><em>Development</em></small></h3>
                         <hr class="top">
                           <ul class="text-left">
-                            <li> HTML/CSS/JS/ES6+, SASS, Flex</li>
-                            <li>SASS, BEM, Flex, CSS Grid</li>
+                            <li> HTML/CSS/JS/ES6+, Flex</li>
+                            <li>SASS, BEM, CSS Grid</li>
                             <li> Bootstrap, Bulma, UiKit3</li>
                             <li> NPM, Gulp, Webpack</li>
                           </ul>
@@ -1255,7 +1265,7 @@
               <div class="col-md-5">
                 <h2 class="text-center">Keywords</h2>
                 <hr class="divider-center-sm">
-                <p>
+                <p class="text-justify">
                   <span class="badge badge-secondary">JSON Server</span>
                   <span class="badge badge-secondary">SEO</span>
                   <span class="badge badge-secondary">PDO/DSN</span>
