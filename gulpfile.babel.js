@@ -44,7 +44,7 @@ const paths = {
   },
 
   images: {
-    src: 'src/assets/images/**/*.{jpg,jpeg,png,svg,gif}',
+    src: ['src/assets/images/**/*.{jpg,jpeg,png,svg,gif}', 'src/assets/images/**/*.{mp4,ogv,webm}'],
     dest: 'dist/assets/images'
   },
 

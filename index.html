@@ -45,12 +45,24 @@
   </header><!-- .container-fluid -->
 
   <!-- Start: Hero Section -->
-  <section id="home" class="hero clearfix">
+  <section id="hero" class="hero clearfix">
     <div class="content-box-sm">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <img src="dist/assets/images/hero/hero-bg_01.jpg" alt="hero" class="img-fluid">
+
+            <video id="hero-bg-video" poster="dist/assets/images/video/home-video.jpg" autoplay loop muted>
+              <source src="dist/assets/images/video/home-video.mp4" type="video/mp4">
+              <source src="dist/assets/images/video/home-video.ogv" type="video/ogg">
+              <source src="dist/assets/images/video/home-video.webm" type="video/webm">
+            </video>
+
+            <!-- Start: Home-section Overlay -->
+            <div id="hero-overlay">
+
+            </div>
+            <!-- End: Home-section Overlay -->
+
           </div>
         </div>
       </div>
