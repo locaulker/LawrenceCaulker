@@ -4,6 +4,7 @@ import 'bootstrap';
 
 
 import SmoothScrolling from './modules/SmoothScrolling';
+import ShowHideNavbar from './modules/ShowHideNavbar';
 import PreLoader from './modules/PreLoader';
 import GoogleMap from './modules/GoogleMap';
 import ProgressBars from './modules/ProgressBars';
@@ -20,6 +21,7 @@ import TinySliderPopup from './modules/TinySliderPopup';
 
 
 const smoothScrolling = new SmoothScrolling();
+const showHideNavbar = new ShowHideNavbar();
 const preLoader = new PreLoader();
 const googleMap = new GoogleMap();
 const mobileNav = new MobileNav();

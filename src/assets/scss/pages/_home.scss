@@ -44,7 +44,7 @@
           font-size: 6.5rem;
           font-weight: 100;
           text-transform: uppercase;
-          margin: 0;
+          margin-top: -1rem;
           display: inline-block;
 
           span {
@@ -56,6 +56,8 @@
 
       h1#home-heading-2 {
         text-transform: capitalize;
+        font-size: 5.5rem;
+        margin: -1rem 0 2rem 0;
       }
 
       #home-text {
@@ -64,6 +66,7 @@
           font-size: 2rem;
           font-weight: 100;
           margin: .8rem 0 3rem 0;
+          line-height: 1.2;
         }
       }
     }

@@ -1,8 +1,11 @@
 header {
-  background-color: rgba($color-grey-dark, .1);
+  // background-color: rgba($color-grey-dark, .1);
   min-height: 6vh;
   line-height: 3.2;
   position: relative;
+  transition: all .4s linear;
+  padding: 0;
+  margin: 0;
   
   //Main Nav
   nav {
@@ -38,6 +41,8 @@ header {
         }
       }
     }
+
+    
 
     // Flex Child 02
     .nav-links {
@@ -91,6 +96,20 @@ header {
 }
 
 /* ===================================
+    White Background Navigation
+  ===================================== */
+.white-nav-top {
+  background: $color-white;
+  box-shadow: 0 8px 6px -9px #999;
+  z-index: 2;
+
+  .nav-links li a {
+    color: $color-grey-dark;
+  }
+}
+
+
+/* ===================================
     Media Queries
   ===================================== */
 
@@ -101,8 +120,8 @@ header {
   header nav .nav-links {
     position: absolute;
     right: 0;
-    top: 6vh;
-    height: 94vh;
+    top: 4.5vh;
+    height: 40vh;
     background: $color-grey-dark url('./../../../../dist/assets/images/bg/carbon_fibre.png') repeat fixed center;
     display: flex;
     flex-direction: column;
