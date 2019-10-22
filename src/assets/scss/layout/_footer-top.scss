@@ -1,5 +1,7 @@
 #footer-top {
-background-color: rgba($color-grey-dark, .95);
+  // background-color: $color-grey-dark;
+  background: url('../../../../dist/assets/images/bg/carbon_fibre.png');
+  background-color: $color-grey-dark-2;
   color: $color-grey-light-2;
   
 
@@ -7,7 +9,7 @@ background-color: rgba($color-grey-dark, .95);
     color: $color-grey-light-2;
     text-transform: uppercase;
     font-size: 2.3rem;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 2px;
     // margin-bottom: 3.5rem;
   }
