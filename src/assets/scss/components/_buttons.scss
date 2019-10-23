@@ -61,6 +61,11 @@
 	border: 1px solid $color-white;
 }
 
+.btn-custom-sm {
+	background-color: $color-primary;
+	color: $color-white;
+}
+
 
 
 // Button Home Starts
@@ -82,19 +87,19 @@
 
 
 // Button Yellow Starts
-.btn-yellow {
-	color: $color-white;
-	border: 1px solid $color-primary;
-	// border-radius: 2.8rem;
-	background-color: $color-primary;
-}
+// .btn-yellow {
+// 	color: $color-white;
+// 	border: 1px solid $color-primary;
+// 	border-radius: 2.8rem;
+// 	background-color: $color-primary;
+// }
 
-.btn-yellow:hover,
-.btn-yellow:focus {
-	color: $color-white;
-	background-color: $color-grey-dark;
-	border: 1px solid $color-grey-dark;
-}
+// .btn-yellow:hover,
+// .btn-yellow:focus {
+// 	color: $color-white;
+// 	background-color: $color-grey-dark;
+// 	border: 1px solid $color-grey-dark;
+// }
 // Button Yellow Ends
 
 
@@ -130,7 +135,7 @@
 	background: transparent;
 
 	i {
-		color: $color-primary;
+		color: $atoll;
 	}
 }
 // back-to-top Button Ends
