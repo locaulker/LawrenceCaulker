@@ -5,6 +5,12 @@
     padding-top: 6rem;
   }
 
+  @media screen and (max-width: 480px) {
+    .skill-unit {
+      margin-bottom: 4rem;
+    }
+  }
+
   .skill-group {
     background-color: $color-white;
     padding: 4rem 1.1rem;

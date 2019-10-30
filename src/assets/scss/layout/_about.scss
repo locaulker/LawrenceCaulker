@@ -22,10 +22,18 @@
 
     .education h3 {
       text-transform: uppercase;
+
+      @media screen and (max-width: 480px) {
+        font-size: 1.6rem;
+      }
     }
     
     .grad-date h3 {
       font-weight: 500;
+
+      @media screen and (max-width: 480px) {
+        font-size: 1.6rem;
+      }
     }
 
   }
@@ -39,10 +47,18 @@
 
     .pe-cert h3 {
       text-transform: uppercase;
+
+      @media screen and (max-width: 480px) {
+        font-size: 1.6rem;
+      }
     }
 
     .cert-date h3 {
       font-weight: 500;
+
+      @media screen and (max-width: 480px) {
+        font-size: 1.6rem;
+      }
     }
   }
 
@@ -50,6 +66,12 @@
     margin-bottom: 3rem;
     background-color: $color-grey-light;
     padding: 1rem;
+
+    @media screen and (max-width: 480px) {
+     h3 {
+        font-size: 1.6rem;
+      }
+    }
 
     h3 small {
       font-weight: 500;
@@ -64,6 +86,14 @@
     font-size: 1.4rem;
     margin-bottom: 3rem;
     padding: 0 4rem;
+
+    @media screen and (max-width: 480px) {
+      padding: 0 1rem;
+
+      h3 {
+        font-size: 1.4rem;
+      }
+    }
 
     i {
       color: $color-grey-dark;
@@ -83,6 +113,16 @@
     h3 {
       padding-bottom: .5rem;
       text-transform: uppercase;
+      
+    }
+
+    @media screen and (max-width: 480px) {
+      h3 {
+        font-size: 1.6rem;
+      }
+      p, ol {
+        font-size: 1.6rem;
+      }
     }
 
     ol li {

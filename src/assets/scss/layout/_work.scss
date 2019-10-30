@@ -35,10 +35,23 @@
     h2 {
       font-weight: bold;
       // font-style: italic;
+      @media screen and (max-width: 480px) {
+        font-size: 1.4rem;
+      }
     }
 
     h3.company {
       font-size: 100;
+
+      @media screen and (max-width: 480px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    h3.period {
+      @media screen and (max-width: 480px) {
+        font-size: 1.4rem;
+      }
     }
 
   }
@@ -86,6 +99,7 @@
     border: 0;
     
   }
+
   .panel-title > a,
   .panel-title > a:active {
     display: block;
@@ -161,6 +175,12 @@
             // font-style: italic;
             text-transform: uppercase;
             letter-spacing: 2px;
+
+            @media screen and (max-width: 480px) {
+              font-size: 1.4rem;
+              letter-spacing: normal;
+            }
+
           }
           h5 {
             font-size: 1.6rem;
@@ -170,6 +190,11 @@
           li {
             margin-bottom: .5rem;
             padding: 1rem 0 1rem 1rem;
+
+            @media screen and (max-width: 480px) {
+              font-size: 1.5rem;
+            }
+            
           }
 
           li:nth-child(odd) {
@@ -179,6 +204,10 @@
           ol {
             padding-top: 1rem;
             padding-bottom: 1rem;
+
+            @media screen and (max-width: 480px) {
+              font-size: 1.5rem;
+            }
           }
 
           ol:nth-child(odd) {

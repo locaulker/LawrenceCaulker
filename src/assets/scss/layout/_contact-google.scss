@@ -8,6 +8,10 @@
   .container {
     padding: 4rem 6rem;
 
+    @media screen and (max-width: 480px) {
+      padding: 3rem 0;
+    }
+
     #contact-form {
       // background: $color-grey-light-2;
       padding: 2.5rem;
@@ -23,10 +27,19 @@
         font-weight: 500;
         text-transform: uppercase;
         color: $atoll;
+
+        @media screen and (max-width: 480px) {
+          text-align: center;
+        }
       }
 
       p {
         margin: 2.5rem 0;
+
+        @media screen and (max-width: 480px) {
+          text-align: center;
+          margin: 2rem auto;
+        }
       }
 
       input.form-control {

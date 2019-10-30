@@ -30,13 +30,10 @@ header {
 
           span {
             font-weight: 300;
-            // text-transform: capitalize;
-            // background-color:rgba($color-white, .1);
-            // padding: .4rem .5rem .4rem 0;
-            // border-radius: 20px;
-            // border: 1px dashed $atoll;
-            // color: $color-grey-light;
-            // font-size: 120%;
+          }
+
+          @media screen and (max-width: 480px) {
+            font-size: 1.5rem;
           }
         }
       }
@@ -86,6 +83,10 @@ header {
         margin-left: auto;
         transition: all .3s ease;
         cursor: pointer;
+
+        @media screen and (max-width: 480px) {
+          height: 2px;
+        }
       }
       .line:not(:last-child) {
         margin-bottom: 5px;
