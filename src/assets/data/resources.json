@@ -1,6 +1,15 @@
 
 [
   { 
+    "icon" : "<i class='fab fa-font-awesome-flag'></i>",
+    "desc" : "FontAwesome: A FontIcon Toolkit based on CSS and LESS",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fal fa-circle'></i>",
+    "expert" : "<i class='fas fa-circle'></i>",
+    "yrs" : "6+",
+    "status" : "Active"
+  },
+  { 
     "icon" : "<img src='dist/assets/images/coding/adobe-cc.svg'>",
     "desc" : "Adobe CC:  Adobe Creative Cloud",
     "beginner" : "<i class='fal fa-circle'></i>",

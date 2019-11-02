@@ -1,15 +1,6 @@
 
 [
   { 
-    "icon" : "<i class='fab fa-font-awesome-flag'></i>",
-    "desc" : "FontAwesome: A FontIcon Toolkit based on CSS and LESS",
-    "beginner" : "<i class='fal fa-circle'></i>",
-    "advanced" : "<i class='fal fa-circle'></i>",
-    "expert" : "<i class='fas fa-circle'></i>",
-    "yrs" : "6+",
-    "status" : "Active"
-  },
-  { 
     "icon" : "<i class='fab fa-laravel'></i>",
     "desc" : "Laravel: A PHP Framework for Web Development",
     "beginner" : "<i class='fal fa-circle'></i>",
