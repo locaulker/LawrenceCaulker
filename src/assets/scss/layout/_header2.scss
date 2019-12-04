@@ -1,0 +1,143 @@
+/* ========= top nav ================ */
+.icon-top {
+  background-color: $color-primary;
+}
+.icon-top a {
+  color: $color-white;
+  font-size: 2.5rem;
+  transition: all .3s linear;
+}
+.icon-top a:hover {
+  color: red;
+}
+.icon-top h5 {
+  color: $color-white;
+}
+
+/* ========== Navbar ============= */
+.navbar {
+  background-color: #242424;
+  padding: 1rem 2rem;
+  transition: all .3s linear;
+}
+.navbar-background {
+  padding: .2rem 2rem;
+}
+
+.navbar-brand {
+  // color: $color-primary;
+  // border: .3rem solid $color-primary;
+  // font-size: 2.5rem;
+  // transition: all .3s linear;
+}
+
+.navbar-brand:hover {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+// Flex Child 01
+#logo {
+
+  h4 {
+    a {
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: $color-white;
+      letter-spacing: 1px;
+      font-family: 'Raleway', sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      cursor: pointer;
+
+      span {
+        font-weight: 300;
+      }
+
+      @media screen and (max-width: 480px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+/* ========== Hamburger Icons ============= */
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 2px;
+  background-color: $color-primary;
+  transition: all .3s linear;
+}
+.bar:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+/* ========= Change bars into X ============ */
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .bar2 {
+  opacity: 0;
+}
+.change .bar3 {
+  transform: rotate(45deg) translate(-7px, -9px);
+}
+
+/* ========= .nav-link ============ */
+.nav-link {
+  color: $color-white;
+  font-size: 2rem;
+  padding: 1rem 2rem !important;
+  border-radius: 5px;
+  transition: all .3s linear;
+  text-transform: uppercase;
+}
+.nav-link a {
+  color: $color-white;
+}
+.nav-link:hover {
+  background-color: $color-primary;
+  color: $color-white;
+}
+/* .input-group > .input-group-append> .btn {
+  background-color: var(--mainWhite);
+} */
+
+.nav-active {
+  color: $color-white;
+  font-size: 2rem;
+  padding: 1rem 2rem !important;
+  border: 1px solid $color-primary;
+}
+
+/* ========= input searcg box ============ */
+input[type='text'] {
+  padding: 1.6rem;
+}
+.search-btn {
+  background-color: $color-primary !important;
+  transition: all .3s linear;
+  color: $color-white;
+  padding: 0 1rem;
+}
+
+.search-btn i {
+  font-size: 1.8rem;
+  color: $color-white;
+}
+.search-btn:hover {
+  color: red;
+}
+
+/* ========= .navbar-toggler ============ */
+.navbar-toggler {
+  border: 1px solid $color-primary;
+  padding: 8px;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  outline: none;
+}

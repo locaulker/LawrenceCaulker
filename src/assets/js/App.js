@@ -3,6 +3,8 @@ import 'popper.js';
 import 'bootstrap';
 
 
+import Header2 from './modules/Header2';
+
 import SmoothScrolling from './modules/SmoothScrolling';
 import ShowHideNavbar from './modules/ShowHideNavbar';
 import PreLoader from './modules/PreLoader';
@@ -20,11 +22,12 @@ import TinySlider from './modules/TinySlider';
 import TinySliderPopup from './modules/TinySliderPopup';
 
 
+const header2 = new Header2();
+
 const smoothScrolling = new SmoothScrolling();
 const showHideNavbar = new ShowHideNavbar();
 const preLoader = new PreLoader();
 const googleMap = new GoogleMap();
-const mobileNav = new MobileNav();
 const isotope = new Isotope();
 const magnificPopup = new MagnificPopup();
 const codingTools = new CodingTools();
