@@ -1,0 +1,112 @@
+
+[
+  { 
+    "icon" : "<i class='fab fa-laravel'></i>",
+    "desc" : "Laravel: A PHP Framework for Web Development",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "6+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<i class='fab fa-bootstrap'></i>",
+    "desc" : "Bootstrap: A toolkit for developing HTML, CSS, & JS Sites",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fal fa-circle'></i>",
+    "expert" : "<i class='fas fa-circle'></i>",
+    "yrs" : "6+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<i class='fab fa-vuejs'></i>",
+    "desc" : "Vue.JS: A JavaScript Framework",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "4+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<img src='dist/assets/images/coding/jquery.svg'>",
+    "desc" : "jQuery: A JS Library that simplifies HTML DOM Traversal",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "10+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<i class='fab fa-angular'></i>",
+    "desc" : "Angular: A JavaScript Framework by Google",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<i class='fab fa-react'></i>",
+    "desc" : "REACT: A JavaScript Library for building UIs by Facebook",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<img src='dist/assets/images/coding/nuxt.svg'>",
+    "desc" : "Nuxt.JS: A Vue.JS Framework with Server-Side Rendering",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<img src='dist/assets/images/coding/codeigniter.svg'>",
+    "desc" : "CodeIgniter: A small but powerful PHP Framework",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "InActive"
+  },
+  { 
+    "icon" : "<img src='dist/assets/images/coding/bulma.svg'>",
+    "desc" : "Bulma: A CSS Framework based on Flexbox",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "InActive"
+  },
+  { 
+    "icon" : "<img src='dist/assets/images/coding/uikit3.svg'>",
+    "desc" : "UiKit 3: A lightweight Modular CSS Framework",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "InActive"
+  },
+  { 
+    "icon" : "<img src='dist/assets/images/coding/semantic.svg'>",
+    "desc" : "Semantic UI: A Modern CSS Framework powered by LESS",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "InActive"
+  },
+  { 
+    "icon" : "<img src='dist/assets/images/coding/october-cms.svg'>",
+    "desc" : "OctoberCMS: A CMS Platform built on PHP Laravel Framework",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "InActive"
+  }
+] 
+
