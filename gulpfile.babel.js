@@ -61,7 +61,7 @@ const paths = {
       '!src/assets/{images,js,scss}',
       '!src/assets/{images,js,scss}/**/*',
     ],
-    dest: 'dist/'
+    dest: 'dist'
   },
 
   package: {
