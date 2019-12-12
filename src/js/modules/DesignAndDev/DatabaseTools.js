@@ -1,14 +1,14 @@
-import frameworks from '../../../../assets/data/frameworks';
+import databaseTools from '../../../data/databaseTools';
 
 
-class FrameWorks {
+class DatabaseTools {
   constructor() {
-    this.frame_works();
+    this.dbTool();
   }
 
-  frame_works() {
+  dbTool() {
 
-    document.getElementById("content-frameworks").innerHTML = `
+    document.getElementById("content-databases").innerHTML = `
     <table id="frameworks" class="table table-striped table-borderless table-hover">
       <thead>
         <tr>
@@ -23,17 +23,17 @@ class FrameWorks {
       </thead>
       <tbody>
         <tr>
-          ${frameworks.map( (frameWork) => {
+          ${databaseTools.map( (databaseTool) => {
 
             return `
               <tr>
-              <th class="td-icon" scope="row">${frameWork.icon}</th>
-              <td class="td-desc">${frameWork.desc}</td>
-              <td class="td-beginner">${frameWork.beginner}</td>
-              <td class="td-advanced">${frameWork.advanced}</td>
-              <td class="td-expert">${frameWork.expert}</td>
-              <td class="td-yrs">${frameWork.yrs}</td>
-              <td class="td-status">${frameWork.status}</td>
+              <th class="td-icon" scope="row">${databaseTool.icon}</th>
+              <td class="td-desc">${databaseTool.desc}</td>
+              <td class="td-beginner">${databaseTool.beginner}</td>
+              <td class="td-advanced">${databaseTool.advanced}</td>
+              <td class="td-expert">${databaseTool.expert}</td>
+              <td class="td-yrs">${databaseTool.yrs}</td>
+              <td class="td-status">${databaseTool.status}</td>
               </tr>
             `
           } ).join('')}
@@ -44,4 +44,4 @@ class FrameWorks {
   }
 }
 
-export default FrameWorks;
+export default DatabaseTools;

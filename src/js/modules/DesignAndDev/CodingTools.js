@@ -1,14 +1,14 @@
-import databaseTools from '../../../../assets/data/databaseTools';
+import coding_Tools from '../../../data/codingTools';
 
 
-class DatabaseTools {
+class CodingTools {
   constructor() {
-    this.dbTool();
+    this.codingTools();
   }
 
-  dbTool() {
+  codingTools() {
 
-    document.getElementById("content-databases").innerHTML = `
+    document.getElementById("content-programming").innerHTML = `
     <table id="frameworks" class="table table-striped table-borderless table-hover">
       <thead>
         <tr>
@@ -23,17 +23,17 @@ class DatabaseTools {
       </thead>
       <tbody>
         <tr>
-          ${databaseTools.map( (databaseTool) => {
+          ${coding_Tools.map( (codingTools) => {
 
             return `
               <tr>
-              <th class="td-icon" scope="row">${databaseTool.icon}</th>
-              <td class="td-desc">${databaseTool.desc}</td>
-              <td class="td-beginner">${databaseTool.beginner}</td>
-              <td class="td-advanced">${databaseTool.advanced}</td>
-              <td class="td-expert">${databaseTool.expert}</td>
-              <td class="td-yrs">${databaseTool.yrs}</td>
-              <td class="td-status">${databaseTool.status}</td>
+              <th class="td-icon" scope="row">${codingTools.icon}</th>
+              <td class="td-desc">${codingTools.desc}</td>
+              <td class="td-beginner">${codingTools.beginner}</td>
+              <td class="td-advanced">${codingTools.advanced}</td>
+              <td class="td-expert">${codingTools.expert}</td>
+              <td class="td-yrs">${codingTools.yrs}</td>
+              <td class="td-status">${codingTools.status}</td>
               </tr>
             `
           } ).join('')}
@@ -44,4 +44,4 @@ class DatabaseTools {
   }
 }
 
-export default DatabaseTools;
+export default CodingTools;

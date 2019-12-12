@@ -1,14 +1,14 @@
-import coding_Tools from '../../../../assets/data/codingTools';
+import frameworks from '../../../data/frameworks';
 
 
-class CodingTools {
+class FrameWorks {
   constructor() {
-    this.codingTools();
+    this.frame_works();
   }
 
-  codingTools() {
+  frame_works() {
 
-    document.getElementById("content-programming").innerHTML = `
+    document.getElementById("content-frameworks").innerHTML = `
     <table id="frameworks" class="table table-striped table-borderless table-hover">
       <thead>
         <tr>
@@ -23,17 +23,17 @@ class CodingTools {
       </thead>
       <tbody>
         <tr>
-          ${coding_Tools.map( (codingTools) => {
+          ${frameworks.map( (frameWork) => {
 
             return `
               <tr>
-              <th class="td-icon" scope="row">${codingTools.icon}</th>
-              <td class="td-desc">${codingTools.desc}</td>
-              <td class="td-beginner">${codingTools.beginner}</td>
-              <td class="td-advanced">${codingTools.advanced}</td>
-              <td class="td-expert">${codingTools.expert}</td>
-              <td class="td-yrs">${codingTools.yrs}</td>
-              <td class="td-status">${codingTools.status}</td>
+              <th class="td-icon" scope="row">${frameWork.icon}</th>
+              <td class="td-desc">${frameWork.desc}</td>
+              <td class="td-beginner">${frameWork.beginner}</td>
+              <td class="td-advanced">${frameWork.advanced}</td>
+              <td class="td-expert">${frameWork.expert}</td>
+              <td class="td-yrs">${frameWork.yrs}</td>
+              <td class="td-status">${frameWork.status}</td>
               </tr>
             `
           } ).join('')}
@@ -44,4 +44,4 @@ class CodingTools {
   }
 }
 
-export default CodingTools;
+export default FrameWorks;

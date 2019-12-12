@@ -1,4 +1,4 @@
-import resources from '../../../../assets/data/resources.json';
+import resources from '../../../data/resources.json';
 
 
 class ResourceTools {

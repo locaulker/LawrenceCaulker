@@ -39,27 +39,27 @@ const PRODUCTION  = yargs.argv.prod;
 
 const paths = {
   styles: {
-    src: ['src/assets/scss/main.scss'],
+    src: ['src/scss/main.scss'],
     dest: 'dist/css'
   },
 
   images: {
-    src: ['src/assets/images/**/*.{jpg,jpeg,png,svg,gif}', 'src/assets/images/**/*.{mp4,ogv,webm}'],
+    src: ['src/images/**/*.{jpg,jpeg,png,svg,gif}', 'src/images/**/*.{mp4,ogv,webm}'],
     dest: 'dist/images'
   },
 
   scripts: {
-    src: ['src/assets/js/App.js'],
+    src: ['src/js/App.js'],
     dest: 'dist/js'
   },
   
 
   others:  {
     src:  [
-      'src/assets/**/*',
+      'src/**/*',
       './index.html',
-      '!src/assets/{images,js,scss}',
-      '!src/assets/{images,js,scss}/**/*',
+      '!src/{images,js,scss}',
+      '!src/{images,js,scss}/**/*',
     ],
     dest: 'dist'
   },
@@ -207,11 +207,11 @@ export const compress = () => {
  * - Run the "styles" task when anything changes in the scss files and folders
  * - Run the "scripts" task when changes occur in js files and folders
  * - Run the "images" task when images are added or deleted
- * - Run the "copy" task when OTHER changes occur in the assets folder
+ * - Run the "copy" task when OTHER changes occur in other folder
  */
 export const watch = () => {
-  gulp.watch('src/assets/scss/**/*.scss', styles);
-  gulp.watch('src/assets/js/**/*.js', gulp.series(scripts, reload));
+  gulp.watch('src/scss/**/*.scss', styles);
+  gulp.watch('src/js/**/*.js', gulp.series(scripts, reload));
   gulp.watch('**/*.html', reload);
   gulp.watch(paths.images.src, gulp.series(images, reload));
   gulp.watch(paths.others.src, gulp.series(copy, reload));

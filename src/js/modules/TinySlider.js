@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import {tns} from '../../../../node_modules/tiny-slider/src/tiny-slider';
+import {tns} from 'tiny-slider';
 
 
 class TinySlider {

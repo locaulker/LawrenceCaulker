@@ -19,7 +19,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/assets/images/coding/es5.svg'>",
+    "icon" : "<img src='dist/images/coding/es5.svg'>",
     "desc" : "ES5: Vanilla JS - Version 5 of JavaScript Specification",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -28,7 +28,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/assets/images/coding/es6.svg'>",
+    "icon" : "<img src='dist/images/coding/es6.svg'>",
     "desc" : "ES6+: Modern JS - Specification Starting from Version 6",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -64,7 +64,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/assets/images/coding/flexbox.svg'>",
+    "icon" : "<img src='dist/images/coding/flexbox.svg'>",
     "desc" : "Flexbox: CSS Flexible Box Layout",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
@@ -73,7 +73,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/assets/images/coding/bem.svg'>",
+    "icon" : "<img src='dist/images/coding/bem.svg'>",
     "desc" : "BEM: Block Element Modifier",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
@@ -82,7 +82,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/assets/images/coding/css-grid.svg'>",
+    "icon" : "<img src='dist/images/coding/css-grid.svg'>",
     "desc" : "CSS Grid: A Powerful Layout system available in CSS",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",

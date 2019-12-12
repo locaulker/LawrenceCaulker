@@ -1,7 +1,7 @@
 
 [
   { 
-    "icon" : "<img src='dist/assets/images/coding/mysql.svg'>",
+    "icon" : "<img src='dist/images/coding/mysql.svg'>",
     "desc" : "MySQL: A Relational DB System – managed by ORACLE",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
@@ -10,7 +10,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/assets/images/coding/postgresql.svg'>",
+    "icon" : "<img src='dist/images/coding/postgresql.svg'>",
     "desc" : "PostgreSQL: An Advanced Relational DB System",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -37,7 +37,7 @@
     "status" : "InActive"
   },
   { 
-    "icon" : "<img src='dist/assets/images/coding/aws.svg'>",
+    "icon" : "<img src='dist/images/coding/aws.svg'>",
     "desc" : "AWS: Amazon Web Services - cloud-based NoSQL ervice",
     "beginner" : "<i class='fas fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
@@ -64,7 +64,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/assets/images/coding/json.svg'>",
+    "icon" : "<img src='dist/images/coding/json.svg'>",
     "desc" : "JSON: JavaScript Object Notation for data-interchange",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",

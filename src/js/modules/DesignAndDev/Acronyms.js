@@ -1,4 +1,4 @@
-import acronyms from '../../../../assets/data/acronyms';
+import acronyms from '../../../data/acronyms';
 
 
 class Acronyms {
