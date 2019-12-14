@@ -1,17 +1,71 @@
 
 [
   { 
-    "icon" : "<img src='images/coding/mysql.svg'>",
-    "desc" : "MySQL: A Relational DB System – managed by ORACLE",
+    "icon" : "<i class='fab fa-laravel'></i>",
+    "desc" : "Laravel: A PHP Framework for Web Development",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "6+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<i class='fab fa-bootstrap'></i>",
+    "desc" : "Bootstrap: A toolkit for developing HTML, CSS, & JS Sites",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
     "expert" : "<i class='fas fa-circle'></i>",
+    "yrs" : "6+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<i class='fab fa-vuejs'></i>",
+    "desc" : "Vue.JS: A JavaScript Framework",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "4+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<img src='images/coding/jquery.svg'>",
+    "desc" : "jQuery: A JS Library that simplifies HTML DOM Traversal",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
     "yrs" : "10+",
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='images/coding/postgresql.svg'>",
-    "desc" : "PostgreSQL: An Advanced Relational DB System",
+    "icon" : "<i class='fab fa-angular'></i>",
+    "desc" : "Angular: A JavaScript Framework by Google",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<i class='fab fa-react'></i>",
+    "desc" : "REACT: A JavaScript Library for building UIs by Facebook",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<img src='images/coding/nuxt.svg'>",
+    "desc" : "Nuxt.JS: A Vue.JS Framework with Server-Side Rendering",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
+    "expert" : "<i class='fal fa-circle'></i>",
+    "yrs" : "2+",
+    "status" : "Active"
+  },
+  { 
+    "icon" : "<img src='images/coding/codeigniter.svg'>",
+    "desc" : "CodeIgniter: A small but powerful PHP Framework",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
     "expert" : "<i class='fal fa-circle'></i>",
@@ -19,17 +73,8 @@
     "status" : "InActive"
   },
   { 
-    "icon" : "<i class='fad fa-database'></i>",
-    "desc" : "MongoDB: A popular NoSQL Database",
-    "beginner" : "<i class='fal fa-circle'></i>",
-    "advanced" : "<i class='fas fa-circle'></i>",
-    "expert" : "<i class='fal fa-circle'></i>",
-    "yrs" : "4+",
-    "status" : "InActive"
-  },
-  { 
-    "icon" : "<i class='fad fa-server'></i>",
-    "desc" : "Firebase: A cloud-based NoSQL Service by Google ",
+    "icon" : "<img src='images/coding/bulma.svg'>",
+    "desc" : "Bulma: A CSS Framework based on Flexbox",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
     "expert" : "<i class='fal fa-circle'></i>",
@@ -37,67 +82,31 @@
     "status" : "InActive"
   },
   { 
-    "icon" : "<img src='images/coding/aws.svg'>",
-    "desc" : "AWS: Amazon Web Services - cloud-based NoSQL ervice",
-    "beginner" : "<i class='fas fa-circle'></i>",
-    "advanced" : "<i class='fal fa-circle'></i>",
+    "icon" : "<img src='images/coding/uikit3.svg'>",
+    "desc" : "UiKit 3: A lightweight Modular CSS Framework",
+    "beginner" : "<i class='fal fa-circle'></i>",
+    "advanced" : "<i class='fas fa-circle'></i>",
     "expert" : "<i class='fal fa-circle'></i>",
     "yrs" : "2+",
     "status" : "InActive"
   },
   { 
-    "icon" : "<i class='fad fa-brackets-curly'></i>",
-    "desc" : "AXIOS: A Promise-based HTTP or browser and Node.JS",
+    "icon" : "<img src='images/coding/semantic.svg'>",
+    "desc" : "Semantic UI: A Modern CSS Framework powered by LESS",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
     "expert" : "<i class='fal fa-circle'></i>",
-    "yrs" : "4+",
-    "status" : "Active"
-  },
-  { 
-    "icon" : "<i class='fad fa-brackets-curly'></i>",
-    "desc" : "APIs: Application Programming Interfaces",
-    "beginner" : "<i class='fal fa-circle'></i>",
-    "advanced" : "<i class='fas fa-circle'></i>",
-    "expert" : "<i class='fal fa-circle'></i>",
-    "yrs" : "4+",
-    "status" : "Active"
-  },
-  { 
-    "icon" : "<img src='images/coding/json.svg'>",
-    "desc" : "JSON: JavaScript Object Notation for data-interchange",
-    "beginner" : "<i class='fal fa-circle'></i>",
-    "advanced" : "<i class='fas fa-circle'></i>",
-    "expert" : "<i class='fal fa-circle'></i>",
-    "yrs" : "6+",
-    "status" : "Active"
-  },
-  { 
-    "icon" : "<i class='fad fa-brackets-curly'></i>",
-    "desc" : "XML: eXtensible Markup Language (data Format before JSON)",
-    "beginner" : "<i class='fal fa-circle'></i>",
-    "advanced" : "<i class='fas fa-circle'></i>",
-    "expert" : "<i class='fal fa-circle'></i>",
-    "yrs" : "5+",
+    "yrs" : "2+",
     "status" : "InActive"
   },
   { 
-    "icon" : "<i class='fad fa-database'></i>",
-    "desc" : "Nginx: A high performance http server",
+    "icon" : "<img src='images/coding/october-cms.svg'>",
+    "desc" : "OctoberCMS: A CMS Platform built on PHP Laravel Framework",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
     "expert" : "<i class='fal fa-circle'></i>",
-    "yrs" : "5+",
-    "status" : "Active"
-  },
-  { 
-    "icon" : "<i class='fad fa-brackets-curly'></i>",
-    "desc" : "Sequel Pro: A Mac DB Management System for MySQL",
-    "beginner" : "<i class='fal fa-circle'></i>",
-    "advanced" : "<i class='fas fa-circle'></i>",
-    "expert" : "<i class='fal fa-circle'></i>",
-    "yrs" : "6+",
-    "status" : "Active"
+    "yrs" : "2+",
+    "status" : "InActive"
   }
 ] 
 
