@@ -29,16 +29,21 @@ DEVELOPMENT
 
 
 PRODUCTION
-  > npm run build   (Without Zipping the files)
-  > npm run bundle  (To Zip the files for production)
-
-  To Run Tasks Individually:
+For Production, Run Tasks Individually:
     > gulp clean      --prod
     > gulp copy       --prod
     > gulp styles     --prod
     > gulp images     --prod
     > gulp scripts    --prod
+
+  To zip the files:
     > gulp compress   --prod
+
+
+CAUTION: For Production:
+  DON'T RUN 'build' and 'bundle'
+  > npm run build   (Without Zipping the files)
+  > npm run bundle  (To Zip the files for production)
 
 
 /** Dynamic PHP/WordPress or Static HTML Files

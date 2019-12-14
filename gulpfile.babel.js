@@ -52,12 +52,17 @@ const paths = {
     src: ['src/js/App.js'],
     dest: 'dist/js'
   },
-  
 
+  // data: {
+  //   src: ['src/data/*'],
+  //   dest: 'dist/data'
+  // },
+  
   others:  {
     src:  [
       'src/**/*',
       './index.html',
+      './favicon.ico',
       '!src/{images,js,scss}',
       '!src/{images,js,scss}/**/*',
     ],
@@ -214,6 +219,7 @@ export const watch = () => {
   gulp.watch('src/js/**/*.js', gulp.series(scripts, reload));
   gulp.watch('**/*.html', reload);
   gulp.watch(paths.images.src, gulp.series(images, reload));
+  // gulp.watch(paths.data.src, gulp.series(data, reload));
   gulp.watch(paths.others.src, gulp.series(copy, reload));
 }
 

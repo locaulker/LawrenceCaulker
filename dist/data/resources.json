@@ -10,7 +10,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/adobe-cc.svg'>",
+    "icon" : "<img src='images/coding/adobe-cc.svg'>",
     "desc" : "Adobe CC:  Adobe Creative Cloud",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -19,7 +19,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/adobe-ps.svg'>",
+    "icon" : "<img src='images/coding/adobe-ps.svg'>",
     "desc" : "Adobe Photoshop: An Image Editing tool by Adobe",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
@@ -28,7 +28,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/adobe-xd.svg'>",
+    "icon" : "<img src='images/coding/adobe-xd.svg'>",
     "desc" : "Adobe XD: Adobe Experience Design for UI/UX Design",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -37,7 +37,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/adobe-ai.svg'>",
+    "icon" : "<img src='images/coding/adobe-ai.svg'>",
     "desc" : "Adobe Illustrator: A Vector Graphics Design Tool",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -46,7 +46,7 @@
     "status" : "InActive"
   },
   { 
-    "icon" : "<img src='dist/images/coding/adobe-id.svg'>",
+    "icon" : "<img src='images/coding/adobe-id.svg'>",
     "desc" : "InDesign: Desktop Publishing print materials by Adobe",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -55,7 +55,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/adobe-dw.svg'>",
+    "icon" : "<img src='images/coding/adobe-dw.svg'>",
     "desc" : "Dreamweaver: A popular Visual Tool Editor",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
@@ -64,7 +64,7 @@
     "status" : "InActive"
   },
   { 
-    "icon" : "<img src='dist/images/coding/adobe-tk.svg'>",
+    "icon" : "<img src='images/coding/adobe-tk.svg'>",
     "desc" : "Adobe Fonts: Formerly called TypeKit – now owned by Adobe",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
@@ -73,7 +73,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/vs-code.svg'>",
+    "icon" : "<img src='images/coding/vs-code.svg'>",
     "desc" : "VS Code: A very popular Code Editor",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
@@ -82,7 +82,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/sketch3.svg'>",
+    "icon" : "<img src='images/coding/sketch3.svg'>",
     "desc" : "Sketch3:  for UI/UX Designers",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -136,7 +136,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/composer.svg'>",
+    "icon" : "<img src='images/coding/composer.svg'>",
     "desc" : "Composer: A Package Manager for PHP",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -145,7 +145,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/woo.svg'>",
+    "icon" : "<img src='images/coding/woo.svg'>",
     "desc" : "WooCommerce: A WordPress eCommerce Plugin",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fal fa-circle'></i>",
@@ -154,7 +154,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/webpack.svg'>",
+    "icon" : "<img src='images/coding/webpack.svg'>",
     "desc" : "Webpack: Bundles JavaScript files for use in a browser",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -163,7 +163,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/babel.svg'>",
+    "icon" : "<img src='images/coding/babel.svg'>",
     "desc" : "Babel: A JavaScript Transpiler – converts ES6+ to ES5",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -172,7 +172,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/gsap.svg'>",
+    "icon" : "<img src='images/coding/gsap.svg'>",
     "desc" : "GSAP: Green Sock Animation Platform for robust web animations",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",
@@ -326,7 +326,7 @@
     "status" : "Active"
   },
   { 
-    "icon" : "<img src='dist/images/coding/asana.svg'>",
+    "icon" : "<img src='images/coding/asana.svg'>",
     "desc" : "Asana: A tool for teams to plan, organize, manage & track work",
     "beginner" : "<i class='fal fa-circle'></i>",
     "advanced" : "<i class='fas fa-circle'></i>",

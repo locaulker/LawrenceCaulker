@@ -8,7 +8,8 @@
 	z-index: 9999;
 
 	&__status {
-		background-image: url('../../../../dist/assets/images/preloader/preloader.gif');
+		// background-image: url('../../../../dist/images/preloader/preloader.gif');
+		background-image: url('../../images/preloader/preloader.gif');
 		background-repeat: no-repeat;
 		width: 70px;
 		height: 70px;

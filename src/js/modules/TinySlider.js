@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import {tns} from 'tiny-slider';
+import {tns} from '../../../node_modules/tiny-slider/src/tiny-slider';
 
 
 class TinySlider {
@@ -8,18 +8,16 @@ class TinySlider {
   }
 
   slider() {
-    const sliderOptions = tns({
+    let sliderOptions = tns({
 			container: '#instagram-slider',
 			items: 2,
 			mode: 'carousel',
 			nav: false,
-			// autoplay: true,
 			speed: 400,
 			controlsContainer: '#customize-controls',
 			loop: true,
 			mouseDrag: true,
 			gutter: 8,
-			// navAsThumbnails: true,
 			slideBy: 'page'
 		});
   }
